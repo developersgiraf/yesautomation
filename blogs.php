@@ -83,7 +83,18 @@
 				<div class="col-md-9 col-sm-12 col-xs-12">
 
 					<div class="row blog-first">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/maintenance-tips-for-rented-pipe-beveling-equipment.php" target="_blank">
+
+								<figure><img src="../images/blog/maintenance-tips-for-rented-pipe-beveling-equipment.jpg" alt="maintenance-tips-for-rented-pipe-beveling-equipment"></figure>
+
+								<h2>Maintenance Tips for Rented Pipe Beveling Equipment | YES Automation
+								</h2>
+
+							</a>
+
+						</div>
 
 					<div class="col-md-4 col-sm-6 col-xs-12">
 
