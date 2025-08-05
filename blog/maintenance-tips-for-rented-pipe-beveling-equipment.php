@@ -176,7 +176,7 @@ Ensure optimal performance and avoid costly breakdowns with these essential main
                         when there is a requirement for specialised machines catering to certain pipe diameters or
                         specific materials.</p>
 
-                    <p>Whatsoever, be it you renting the pipe beveling machine for some days or months, carrying out
+                    <p>Whatsoever, be it you renting the <a href="https://www.yesautomation.ae/pipe-beveling.php">pipe beveling </a> machine for some days or months, carrying out
                     proper maintenance of pipe bevleing machine is very important. Maintaining a pipe beveling
                     machine will not only make sure that the machine is delivering maximum performance but also
                     contributes to the prevention of inessential breakdown, additional charges incurred on rental
@@ -373,7 +373,7 @@ Ensure optimal performance and avoid costly breakdowns with these essential main
                     will not only make sure that the machine offers good quality beveling and are very safe for the
                     operator to use but also make sure your rental investment is protected.</p>
 				<p>
-				At YES Automation, we offer customers with not only the premium quality rental machines but
+				At <a href="https://www.yesautomation.ae/index.php">YES Automation </a> , we offer customers with not only the premium quality rental machines but
                 also a brief training to the team on how to use the machine responsibly. For more detail on our
                 vast range of pipe beveling machines available on rental, you may contact us at
                 <a href="mailto:sales@yesautomation.ae">sales@yesautomation.ae </a>
