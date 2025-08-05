@@ -4,10 +4,6 @@
 
 <head>
 
-
-
-
-
 	<title>Yes Automation Blogs | UAE | Dubai</title>
 
 	<link rel="shortcut icon" href="images/favicon.png">
@@ -19,10 +15,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-
-
-
-
 
 	<link rel="stylesheet" href="main/bootstrap.min.css">
 
@@ -63,13 +55,6 @@
 
 	<?php $page = 'blog';
 	include 'header.php'; ?>
-
-
-
-
-
-
-
 
 
 	<section id="about-banner">
@@ -124,9 +109,6 @@
 
 						</div>
 					
-
-
-
 				<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/best-practices-for-using-welding-rotators.php" target="_blank">

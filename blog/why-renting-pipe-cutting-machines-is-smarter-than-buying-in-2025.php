@@ -6,10 +6,6 @@
 
 <head>
 
-
-
-
-
 	<title>Why Renting Pipe Cutting Machines Is Smarter Than Buying in 2025 | Yes Automation
 </title>
 
