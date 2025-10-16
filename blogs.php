@@ -80,9 +80,22 @@
 
 			<div class="row">
 
+			
 				<div class="col-md-9 col-sm-12 col-xs-12">
 
 					<div class="row blog-first">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/cut-costs-the-smarter-way-rent-arc-welding-machines-instead-of-buying.php" target="_blank">
+
+								<figure><img src="../images/blog/cut-costs-the-smarter-way-rent-arc-welding-machines-instead-of-buying.jpg" alt="Cut Costs the Smarter Way: Rent Arc Welding Machines Instead of Buying"></figure>
+
+								<h2>Cut Costs the Smarter Way: Rent Arc Welding Machines Instead of Buying | YES Automation
+								</h2>
+
+							</a>
+
+						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/maintenance-tips-for-rented-pipe-beveling-equipment.php" target="_blank">
