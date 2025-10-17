@@ -22,7 +22,7 @@ Save money and boost flexibility by renting arc welding machines instead of buyi
 
 
 
-		<link rel="canonical" href="" />
+		<link rel="canonical" href="https://www.yesautomation.ae/blog/cut-costs-the-smarter-way-rent-arc-welding-machines-instead-of-buying.php" />
 
 <meta property="og:locale" content="en_US" />
 
