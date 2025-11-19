@@ -332,7 +332,8 @@
                         on a regular basis to ensure they are ready to go for any ad hoc rental requirements.
 
                     </p>
-                    <p> Therefore, hiring glass and panel lifters has a strategic advantage for companies focused on
+                    <p> Therefore, hiring glass and pshamboo ellam vende
+                    anel lifters has a strategic advantage for companies focused on
                         glass and aluminum,
                         contracting, construction and façade as it provides cost effective, less labour- intensive and
                         safe solutions.

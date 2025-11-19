@@ -80,10 +80,23 @@
 
 			<div class="row">
 
-			
+
 				<div class="col-md-9 col-sm-12 col-xs-12">
 
 					<div class="row blog-first">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/why-buy-when-you-can-rent-vacuum-lifters-to-save-cost.php" target="_blank">
+
+								<figure><img src="../images/blog/why-buy-when-you-can-rent-how-vacuum-lifter-rentals-slash-your-costs.jpg" alt="Why Buy When You Can Rent? How Vacuum Lifter Rentals Slash Your Costs"></figure>
+
+								<h2>Why Buy When You Can Rent? How Vacuum Lifter Rentals Slash Your Costs?
+
+								</h2>
+
+							</a>
+
+						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/cut-costs-the-smarter-way-rent-arc-welding-machines-instead-of-buying.php" target="_blank">
@@ -109,7 +122,7 @@
 
 						</div>
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/why-renting-pipe-cutting-machines-is-smarter-than-buying-in-2025.php" target="_blank">
 
@@ -121,7 +134,7 @@
 							</a>
 
 						</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/advantages-of-renting-stud-welding-machines.php" target="_blank">
 
@@ -132,8 +145,8 @@
 							</a>
 
 						</div>
-					
-				<div class="col-md-4 col-sm-6 col-xs-12">
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/best-practices-for-using-welding-rotators.php" target="_blank">
 
@@ -145,7 +158,7 @@
 
 						</div>
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/difference-between-stud-welding-and-stick-welding.php" target="_blank">
 
