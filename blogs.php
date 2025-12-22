@@ -84,6 +84,36 @@
 				<div class="col-md-9 col-sm-12 col-xs-12">
 
 					<div class="row blog-first">
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/why-renting-carpet-cleaning-machines-is-the-best-choice.php" target="_blank">
+
+								<figure><img src="../images/blog/why-renting-carpet-cleaning-machines-is-the-best-choice.jpg" alt="why-renting-carpet-cleaning-machines-is-the-best-choice"></figure>
+
+								<h2>Why Renting Carpet Cleaning Machines Is the Best
+Choice for UAE Homes & Offices
+
+								</h2>
+
+							</a>
+
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/benefits-of-automatic-pool-cleaning-robots-for-short-term-and-long-term-rental.php" target="_blank">
+
+								<figure><img src="../images/blog/benefits-of-automatic-pool-cleaning-robots-for-short-term-and-long-term-rental.jpg" alt="benefits-of-automatic-pool-cleaning-robots-for-short-term-and-long-term-rental"></figure>
+
+								<h2>Top Benefits of Automatic Pool Cleaning
+									Robots for Short-Term and Long-Term Rental
+
+								</h2>
+
+							</a>
+
+						</div>
+
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/why-buy-when-you-can-rent-vacuum-lifters-to-save-cost.php" target="_blank">
