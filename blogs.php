@@ -87,12 +87,23 @@
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/how-vacuum-glass-lifters-improve-efficiency-in-solar-panel-installation.php" target="_blank">
+
+								<figure><img src="../images/blog/how-vacuum-glass-lifters-improve-efficiency-in-solar-panel-installation.jpg" alt="how-vacuum-glass-lifters-improve-efficiency-in-solar-panel-installation"></figure>
+
+								<h2>How Vacuum Glass Lifters Improve Efficiency in Solar Panel Installation
+								</h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/why-renting-carpet-cleaning-machines-is-the-best-choice.php" target="_blank">
 
 								<figure><img src="../images/blog/why-renting-carpet-cleaning-machines-is-the-best-choice.jpg" alt="why-renting-carpet-cleaning-machines-is-the-best-choice"></figure>
 
 								<h2>Why Renting Carpet Cleaning Machines Is the Best
-Choice for UAE Homes & Offices
+									Choice for UAE Homes & Offices
 
 								</h2>
 
