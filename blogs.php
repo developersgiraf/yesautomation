@@ -85,6 +85,17 @@
 
 					<div class="row blog-first">
 
+					<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/pipe-beveling-equipment-rental-guide.php" target="_blank">
+
+								<figure><img src="../images/blog/a-complete-guide-to-renting-pipe-beveling-equipment-for-industrial-projects.jpeg" alt="a-complete-guide-to-renting-pipe-beveling-equipment-for-industrial-projects"></figure>
+
+								<h2>A Complete Guide to Renting Pipe Beveling Equipment for Industrial Projects
+								</h2>
+							</a>
+						</div>
+
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/how-vacuum-glass-lifters-improve-efficiency-in-solar-panel-installation.php" target="_blank">
