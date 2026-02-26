@@ -85,7 +85,19 @@
 
 					<div class="row blog-first">
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/renting-pressure-washer-for-tough-cleaning-jobs.php" target="_blank">
+
+								<figure><img src="../images/blog/renting-pressure-washer-for-tough-cleaning-jobs.jpeg" alt="renting-pressure-washer-for-tough-cleaning-jobs"></figure>
+
+								<h2>Renting a Pressure Washer: The Smart Way to Tackle Tough Cleaning Jobs
+
+								</h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/pipe-beveling-equipment-rental-guide.php" target="_blank">
 
