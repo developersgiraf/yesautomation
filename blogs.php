@@ -87,6 +87,18 @@
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/stud-welding-rental-uae-guide.php" target="_blank">
+
+								<figure><img src="../images/blog/stud-welding-rental-uae-guide.jpeg" alt="stud-welding-rental-uae-guide"></figure>
+
+								<h2>Stud Welding Rental in UAE: A Complete Guide
+
+								</h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/renting-pressure-washer-for-tough-cleaning-jobs.php" target="_blank">
 
 								<figure><img src="../images/blog/renting-pressure-washer-for-tough-cleaning-jobs.jpeg" alt="renting-pressure-washer-for-tough-cleaning-jobs"></figure>
