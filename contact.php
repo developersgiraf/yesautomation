@@ -1,18 +1,18 @@
  <?php
-	if (isset($_POST['subc'])) {
-		//print_r($_POST);exit;
-		$name = $_POST['firstname'];
-		$mail = $_POST['email'];
-		$phone = $_POST['mobile'];
+    if (isset($_POST['subc'])) {
+        //print_r($_POST);exit;
+        $name = $_POST['firstname'];
+        $mail = $_POST['email'];
+        $phone = $_POST['mobile'];
 
-		$msg = $_POST['msg'];
-		$subject = $_POST['subject'];
-		$header = 'MIME-Version: 1.0' . "\r\n";
-		$header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-		//$header .= 'To: Abdul anas <abdulanas386@gmail.com>' . "\r\n";
-		$header .= 'From: Yesautomation ' . "\r\n";
+        $msg = $_POST['msg'];
+        $subject = $_POST['subject'];
+        $header = 'MIME-Version: 1.0' . "\r\n";
+        $header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        //$header .= 'To: Abdul anas <abdulanas386@gmail.com>' . "\r\n";
+        $header .= 'From: Yesautomation ' . "\r\n";
 
-		$message = '
+        $message = '
 <div style="background:#e5e5e5; padding:2% 6%">
 
 
@@ -62,18 +62,18 @@
 </div>
 
 ';
-		//echo '<pre>';print_r($message);exit;
-		$result = mail('sales@yesautomation.ae', 'Enquiry From Yesautomation website', $message, $header);
-		//mail($email,'Thanks for your feedback' , $feedback,$header);
-		if ($result) {
-			echo "<script>alert('Mail Send Successfully')</script>";
-			echo "<script>window.location='contact.php?success'</script>";
-		} else {
-			echo "<script>alert('Something Wrong.......')</script>";
-		}
-	}
+        //echo '<pre>';print_r($message);exit;
+        $result = mail('sales@yesautomation.ae', 'Enquiry From Yesautomation website', $message, $header);
+        //mail($email,'Thanks for your feedback' , $feedback,$header);
+        if ($result) {
+            echo "<script>alert('Mail Send Successfully')</script>";
+            echo "<script>window.location='contact.php?success'</script>";
+        } else {
+            echo "<script>alert('Something Wrong.......')</script>";
+        }
+    }
 
-	?>
+    ?>
  <!DOCTYPE html>
  <html lang="en">
 
@@ -103,9 +103,9 @@
 
  </head>
  <style>
-.video-f iframe {
-    width: 100%;
-}
+     .video-f iframe {
+         width: 100%;
+     }
  </style>
 
  <body>
@@ -118,7 +118,7 @@
 
 
      <?php $page = 'contact';
-		include 'header.php'; ?>
+        include 'header.php'; ?>
 
 
      <section id="contact-banner">
@@ -160,12 +160,13 @@
                      <p>UM LAOB REGION, PLOT NO. 1628</p>
                      <p>UMM AL QUWAIN, UAE</p>
                      <div class="bodx">
-                         <h5><span>TEL :</span> <a href="tel:971565388502" target="_blank" style="color: #333;">
-                                 +971 56
-                                 538 8502 </a>
+                         <h5><span>TEL :</span> <a href="tel:97165264382" target="_blank" style="color: #333;">
+                                 +971 6 526 4382 </a>
                          </h5>
-                         <h5><span>MOB :</span> <a href="tel:971502118507" target="_blank" style="color: #333;">+971 50
-                                 211 8507</a></h5>
+                         <h5><span>MOB :</span> <a href="tel:971565388502" target="_blank" style="color: #333;">
+                                 +971 56
+                                 538 8502</a>
+                         </h5>
                          <h5><span>FAX :</span> +971 6 5264384 </h5>
                          <p>Mail : <a href="mailto:sales@yesautomation.ae"
                                  target="_blank"><span>sales@yesautomation.ae</span></a></p>
@@ -272,20 +273,20 @@
 
      <script src="js/custom.js"></script>
      <script>
-     var _gaq = _gaq || [];
-     _gaq.push(['_setAccount', 'UA-36251023-1']);
-     _gaq.push(['_setDomainName', 'jqueryscript.net']);
-     _gaq.push(['_trackPageview']);
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-36251023-1']);
+         _gaq.push(['_setDomainName', 'jqueryscript.net']);
+         _gaq.push(['_trackPageview']);
 
-     (function() {
-         var ga = document.createElement('script');
-         ga.type = 'text/javascript';
-         ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') +
-             '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0];
-         s.parentNode.insertBefore(ga, s);
-     })();
+         (function() {
+             var ga = document.createElement('script');
+             ga.type = 'text/javascript';
+             ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') +
+                 '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0];
+             s.parentNode.insertBefore(ga, s);
+         })();
      </script>
 
 

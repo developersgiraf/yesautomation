@@ -37,7 +37,7 @@
 				<p>UM LAOB REGION,<br> PLOT NO. 1628</p>
 				<p>UMM AL QUWAIN, UAE</p>
 				<p>&nbsp;</p>
-				<p>TEL : <a href="tel:971565388502" target="_blank"> +971 56 538 8502 </a></p>
+				<p>TEL : <a href="tel:97165264382" target="_blank"> +971 6 526 4382 </a></p>
 				<p>FAX : +971 6 526 4384</p>
 
 			</div>
@@ -45,12 +45,12 @@
 
 			<div class="col-md-3 col-sm-6">
 				<h3><span>Get In</span> Touch</h3>
-				<img src="images/anjali.png" class="img-responsive" alt="Yes Automation">
+				<img src="images/Shafna-Ashraf.png" class="img-responsive" alt="Yes Automation">
 
-				<h3>Anjali Roy</h3>
+				<h3> Shafna Ashraf </h3>
 				<p> Division manager </p>
 
-				<p>MOB : <a href="tel:971502118507" target="_blank">+971 50 211 8507</a></p>
+				<p>MOB : <a href="tel:'971565388502" target="_blank"> '+971 56 538 8502 </a></p>
 				<p>Mail : <a href="mailto:sales@yesautomation.ae">sales@yesautomation.ae</a></p>
 			</div>
 			<div class="col-md-3 col-sm-6 lo-fo">
