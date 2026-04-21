@@ -87,6 +87,18 @@
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/hot-vs-cold-water-pressure-washer-when-to-use.php" target="_blank">
+
+								<figure><img src="../images/blog/hot-vs-cold-water-pressure-washer-when-to-use.png" alt="hot-vs-cold-water-pressure-washer-when-to-use"></figure>
+
+								<h2>When Should You Use a Hot or Cold Water Pressure Washer
+
+								</h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/stud-welding-rental-uae-guide.php" target="_blank">
 
 								<figure><img src="../images/blog/stud-welding-rental-uae-guide.jpeg" alt="stud-welding-rental-uae-guide"></figure>
