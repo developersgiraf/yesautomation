@@ -183,17 +183,17 @@ stability and safety of these structures.
 </p>
 <h2> Types of welding machines
  </h2>
- <h4 style="
+ <h3 style="
     margin-top: 20px;
 "> Stick Welding Machines
-  </h4>
+  </h3>
   <p> Used for Shielded Metal Arc Welding (SMAW), this process electrifies a consumables electrode
 coated in flux which melts along with the base metal. Stick Welding Machines usually belong in
 construction, repair work and heavy fabrication industries. Their reliability in outdoor and
 challenging environments is highly regarded. An ideal welding solution for thicker materials,
 their simplicity and durability makes them a popular choice.</p>
-<h2> TIG Welding Machines
- </h2>
+<h3> TIG Welding Machines
+ </h3>
  <p> Unlike its predecessor, TIG welding machines use a non-consumable tungsten electrode to
 achieve the arc and the filler material is usually added separately according to need. Mainly
 used for Gas Tungsten Arc Welding (GTAW), they are renowned for their high-quality weld finish
@@ -201,14 +201,14 @@ and precision welding. They are predominantly used by industries like aerospace,
 fabrication, pharmaceuticals and precision engineering where appearance and control matter
 the most.
 </p>
-<h2>Flux-Cored Welding Machines
-</h2>
+<h3>Flux-Cored Welding Machines
+</h3>
 <p> In a Flux-Cored welding machine, the process is similar, but with a twist. It uses a tubular wire
 filled with flex unlike in a MIG welding machine. Some systems use additional shielding gas if
 needed while others do not. A champion in structural fabrication, shipbuilding and outdoor
 industrial work, they are ideal for heavy-duty projects, especially delivering high quality result on
 thicker materials.</p>
-<h2>Plasma Arc Welding Machines</h2>
+<h3>Plasma Arc Welding Machines</h3>
 <p> Like the name itself, they’re an integral tool in plasma arc welding. Though it works just like TIG
 welding machines, it uses a much more concentrated arc to achieve better control and deeper
 penetration since they are an essential component in applications that require stable and
