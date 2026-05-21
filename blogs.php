@@ -87,6 +87,16 @@
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/mobile-strapping-machine-rental-benefits.php" target="_blank">
+
+								<figure><img src="../images/blog/ergonomic-pallet-strapping-why-renting-a-mobile-strapping-machine-is-a-cost-effective-solution.webp" alt="Ergonomic Pallet Strapping: Why Renting a Mobile Strapping Machine Is a Cost-Effective Solution"></figure>
+
+								<h2> Ergonomic Pallet Strapping: Why Renting a Mobile Strapping Machine Is a Cost-Effective Solution </h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/types-of-welding-machines-and-rental-benefits.php" target="_blank">
 
 								<figure><img src="../images/blog/types-of-welding-machines-and-rental-benefits.webp" alt="the-ultimate-guide-to-types-of-welding-machines-and-why-renting-is-the-smart-choice"></figure>
