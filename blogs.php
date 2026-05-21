@@ -87,6 +87,16 @@
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/types-of-welding-machines-and-rental-benefits.php" target="_blank">
+
+								<figure><img src="../images/blog/types-of-welding-machines-and-rental-benefits.webp" alt="the-ultimate-guide-to-types-of-welding-machines-and-why-renting-is-the-smart-choice"></figure>
+
+								<h2> The Ultimate Guide to Types of Welding Machines and Why Renting Is a SmartChoice </h2>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/hot-vs-cold-water-pressure-washer-when-to-use.php" target="_blank">
 
 								<figure><img src="../images/blog/hot-vs-cold-water-pressure-washer-when-to-use.png" alt="hot-vs-cold-water-pressure-washer-when-to-use"></figure>
