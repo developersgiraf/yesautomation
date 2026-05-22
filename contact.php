@@ -155,7 +155,7 @@
 
                  <div class="col-md-4 col-sm-5 up">
                      <h4>Head office</h4>
-                     <p>YORK ENGINEERING SOLUTIONS FZC </p>
+                     <p> YES AUTOMATION LLC </p>
                      <p>BLOCK NO. 7, WAREHOUSE NO 3</p>
                      <p>UM LAOB REGION, PLOT NO. 1628</p>
                      <p>UMM AL QUWAIN, UAE</p>
