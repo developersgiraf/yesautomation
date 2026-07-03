@@ -88,8 +88,7 @@
         <div class="container-fluid">
             <div class="col-md-7 col-sm-9">
 
-                <p>© 2026 <span>YesAutomation.ae</span> All rights reserved. Powered By <a href="https://bigleap.ae/"
-                        target="blank"><span>Big Leap</span></a></p>
+            <p>© 2026 <span>YES Automation</span> All rights reserved. Powered By <a href="https://bigleap.ae/" target="blank"><span>Big Leap</span></a></p>
 
             </div>
 

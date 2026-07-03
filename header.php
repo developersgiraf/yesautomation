@@ -23,7 +23,9 @@
                          <a href="https://www.facebook.com/YES-Automation-109242957330326/" class="le" target="blank"><i class="demo-icon icon-003-facebook">&#xe808;</i></a>
 
 
-                         <a <?php if ($page == "news") { ?>class="active" <?php } ?> href="news.php">News </a>/ <a <?php if ($page == "blog") { ?>class="active" <?php } ?> href="blogs.php">Blogs</a> / <a <?php if ($page == "contact") { ?>class="active" <?php } ?>href="contact.php" class="small-scr">Contact</a>
+                         <!-- <a <?php if ($page == "news") { ?>class="active" <?php } ?> href="news.php">News </a>/  -->
+                         <a <?php if ($page == "blog") { ?>class="active" <?php } ?> href="blogs.php">Blogs</a> /
+                          <a <?php if ($page == "contact") { ?>class="active" <?php } ?>href="contact.php" class="small-scr">Contact</a>
 
 
 
