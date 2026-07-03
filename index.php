@@ -36,7 +36,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans+Condensed:700,300,300italic" rel="stylesheet" type="text/css">
 
-
+   <!-- canonical -->
+   <link href="https://www.yesautomation.ae/" rel="canonical">
+    <!--// canonical -->
 
 
 

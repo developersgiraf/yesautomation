@@ -25,7 +25,9 @@
 	<link rel="stylesheet" href="main/about.css">
 	<link rel="stylesheet" href="slider/skdslider.css">
 
-
+   <!-- canonical -->
+   <link href="https://www.yesautomation.ae/blogs.php" rel="canonical">
+    <!--// canonical -->
 
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
