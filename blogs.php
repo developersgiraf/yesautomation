@@ -89,6 +89,17 @@
 					    
 					    	<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/viavac-cb4-rental-case-study-abu-dhabi.php" >
+
+								<figure><img src="../images/blog/viavac-cb4-rental-case-study-abu-dhabi.webp" alt="viavac-cb4-rental-case-study-abu-dhabi"></figure>
+
+								<h2>  Case Study: Successful Rental Delivery
+and Operator Training for the Viavac
+CB4 Sandwich Panel Lifter in Abu Dhabi </h2>
+							</a>
+						</div>
+					    	<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/best-vacuum-cleaner-rentals-for-industrial-commercial-cleaning-uae.php" >
 
 								<figure><img src="../images/blog/best-vacuum-cleaner-rentals-for-industrial-commercial-cleaning-uae.webp" alt="Best Vacuum Cleaner Rentals for

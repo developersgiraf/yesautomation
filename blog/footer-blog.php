@@ -11,7 +11,7 @@
 					<a href="../news.php"><p>News & Resources</p></a>
 					<a href="../contact.php"><p>Contact us</p></a>
 					<a href="../privacy-policy.php"><p>Privacy Policy</p></a>
-					 <a  href="blogs.php" target="blank"><p>Blogs</p></a>
+					 <a  href="../blogs.php"><p>Blogs</p></a>
 			</div>
 
 

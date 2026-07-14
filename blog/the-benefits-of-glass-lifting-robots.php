@@ -24,7 +24,7 @@
 
 
 
-		<link rel="canonical" href="http://yesautomation.ae/blog/the-benefits-of-glass-lifting-robots.php" />
+		<link rel="canonical" href="https://yesautomation.ae/blog/the-benefits-of-glass-lifting-robots.php" />
 
 <meta property="og:locale" content="en_US" />
 

@@ -28,7 +28,7 @@
 
 
 
-	<link rel="canonical" href="https://www.yesautomation.ae/blog/why-vacuum-cleaner-over-traditional-cleaning-methods.php" />
+	<link rel="canonical" href="https://www.yesautomation.ae/blog/swimming-pool-cleaning-machine-reviews-facts.php" />
 
 <meta property="og:locale" content="en_US" />
 

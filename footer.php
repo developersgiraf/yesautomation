@@ -24,7 +24,7 @@
                 <a href="privacy-policy.php">
                     <p>Privacy Policy</p>
                 </a>
-                <a href="blogs.php" target="blank">
+                <a href="blogs.php">
                     <p>Blogs</p>
                 </a>
             </div>
