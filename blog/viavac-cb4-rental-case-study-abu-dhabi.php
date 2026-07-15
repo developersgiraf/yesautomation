@@ -153,9 +153,9 @@
 
 				<div class="col-md-9 col-sm-12 col-xs-12">
 
-<h1> Understanding Industrial Vacuum
-Cleaners and Their Applications
- </h1>
+<h1> Case Study: Successful Rental Delivery
+and Operator Training for the Viavac
+CB4 Sandwich Panel Lifter in Abu Dhabi </h1>
  <img src="../images/blog/viavac-cb4-rental-case-study-abu-dhabi.webp" alt="viavac-cb4-rental-case-study-abu-dhabi" >
 
  <p>This case study discusses the use of a rented heavy lifting machine which helped to complete
