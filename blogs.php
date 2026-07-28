@@ -89,6 +89,17 @@
 					    
 					    	<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/how-to-choose-the-perfect-arc-welding-machine.php" >
+
+								<figure><img src="../images/blog/how-to-choose-the-perfect-arc-welding-machine.webp" alt="how-to-choose-the-perfect-arc-welding-machine"></figure>
+
+								<h2>   How to Choose the Perfect Arc Welding
+								Machine for Your Project </h2>
+							</a>
+						</div>
+					    
+					    	<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/viavac-cb4-rental-case-study-abu-dhabi.php" >
 
 								<figure><img src="../images/blog/viavac-cb4-rental-case-study-abu-dhabi.webp" alt="viavac-cb4-rental-case-study-abu-dhabi"></figure>
