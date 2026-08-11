@@ -46,9 +46,26 @@ if (isset($_POST['subc'])) {
     $has_field_error = (bool) array_filter($field_errors);
 
     if (!$has_field_error) {
+        // Must use domain mailbox as From. Gmail From + -f is blocked by hosting.
+        $from_email = 'sales@yesautomation.ae';
+        $from_name = 'Yes Automation';
+        $to = 'sales@yesautomation.ae';
+        $mail_subject = 'Enquiry From Yesautomation website';
+
+        $safe_name = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+        $safe_mail = htmlspecialchars($mail, ENT_QUOTES, 'UTF-8');
+        $safe_phone = htmlspecialchars($phone, ENT_QUOTES, 'UTF-8');
+        $safe_subject = htmlspecialchars($subject, ENT_QUOTES, 'UTF-8');
+        $safe_msg = htmlspecialchars($msg, ENT_QUOTES, 'UTF-8');
+
+        $reply_name = str_replace(["\r", "\n"], '', $name);
+        $reply_mail = str_replace(["\r", "\n"], '', $mail);
+
         $header = 'MIME-Version: 1.0' . "\r\n";
         $header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $header .= 'From: Yesautomation ' . "\r\n";
+        $header .= 'From: ' . $from_name . ' <' . $from_email . '>' . "\r\n";
+        $header .= 'Reply-To: ' . $reply_name . ' <' . $reply_mail . '>' . "\r\n";
+        $header .= 'X-Mailer: PHP/' . phpversion() . "\r\n";
 
         $message = '
 <div style="background:#e5e5e5; padding:2% 6%">
@@ -59,24 +76,24 @@ if (isset($_POST['subc'])) {
 <div style="padding:15px 15px 35px 15px; background:white;text-align: center; ">
 <H1>Enquiry from Yesautomation Website</H1>
 <div style="padding-bottom:5px; height: 30px; border-top:dashed 1px #e5e5e5; padding-top:20px;">
-<div > Name:  <a style="color:#999">' . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . '</a></div>
+<div > Name:  <a style="color:#999">' . $safe_name . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Mail:  <a style="color:#999">' . htmlspecialchars($mail, ENT_QUOTES, 'UTF-8') . '</a></div>
+<div > Mail:  <a style="color:#999">' . $safe_mail . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Phone:  <a style="color:#999">' . htmlspecialchars($phone, ENT_QUOTES, 'UTF-8') . '</a></div>
+<div > Phone:  <a style="color:#999">' . $safe_phone . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Subject:  <a style="color:#999">' . htmlspecialchars($subject, ENT_QUOTES, 'UTF-8') . '</a></div>
+<div > Subject:  <a style="color:#999">' . $safe_subject . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Message:  <a style="color:#999">' . htmlspecialchars($msg, ENT_QUOTES, 'UTF-8') . '</a></div>
+<div > Message:  <a style="color:#999">' . $safe_msg . '</a></div>
 </div>
 </div>
 ';
 
-        $result = mail('saneshbigleap@gmail.com', 'Enquiry From Yesautomation website', $message, $header);
+        $result = @mail($to, $mail_subject, $message, $header);
 
         if ($result) {
             header('Location: thank-you.php');

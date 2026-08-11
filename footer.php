@@ -109,32 +109,3 @@
 
 
 
-
-<!-- Bothelp.io widget -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
-<script>
-! function() {
-    // 		var e = {
-    // 				"token": "971508993781",
-    // 				"position": "right",
-    // 				"bottomSpacing": "30",
-    // 				"callToActionMessage": "Talk to Us",
-    // 				"displayOn": "everywhere",
-    // 				"subtitle": "Machines for Rental",
-    // 				"message": {
-    // 					"name": "YesAutomation",
-    // 					"content": "Hello from YES Automation!"
-    // 				}
-    // 			},
-    t = document.location.protocol + "//bothelp.io",
-        o = document.createElement("script");
-    o.type = "text/javascript", o.async = !0, o.src = t + "/widget-folder/widget-whatsapp-chat.js", o.onload =
-        function() {
-            BhWidgetWhatsappChat.init(e)
-        };
-    var n = document.getElementsByTagName("script")[0];
-    n.parentNode.insertBefore(o, n)
-}();
-</script>
-<!-- /Bothelp.io widget -->
