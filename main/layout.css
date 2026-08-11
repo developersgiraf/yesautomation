@@ -1512,6 +1512,7 @@ Font downloaded from FontsForWeb.com
    .phone-icon {
     width: 40px;
     height: 40px;
+    margin: 0 0 20px 0;
   }
 
   .phone-icon img {
@@ -1644,7 +1645,7 @@ Font downloaded from FontsForWeb.com
 
   #footer img {
     margin: auto;
-    margin-top: 45px;
+    margin-top: 1px;
   }
 
   #rated-main #back {

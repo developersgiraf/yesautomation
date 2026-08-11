@@ -174,7 +174,7 @@ function sendNotification($request)
 
     // $settings = $row->fetch();
     // $to = $settings->option_value;
-    $to = "sales@yesautomation.ae";
+    $to = "saneshbigleap@gmail.com";
 
     // $qry = "SELECT * FROM ya_categories WHERE id =".$request['category_id'];
     // $catRow = $db->query($qry);

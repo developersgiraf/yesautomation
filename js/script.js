@@ -61,12 +61,15 @@
 })(jQuery);
 
 (function($){
+
 $(document).ready(function(){
 
-$("#cssmenu").menumaker({
-   title: "",
-   format: "multitoggle"
-});
+if ($("#cssmenu").length && !$("#cssmenu > #menu-button").length) {
+  $("#cssmenu").menumaker({
+     title: "",
+     format: "multitoggle"
+  });
+}
 
 });
 })(jQuery);

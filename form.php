@@ -6,11 +6,11 @@ if (isset($_POST['Submit'])) {
 
     $header = 'MIME-Version: 1.0' . "\r\n";
     $header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-    $header .= 'From: sales@yesautomation.ae' . " " .
+    $header .= 'From: saneshbigleap@gmail.com' . " " .
         'X-Mailer: PHP/' . phpversion();
 
 
-    $to = "sales@yesautomation.ae";
+    $to = "saneshbigleap@gmail.com";
     $subject = "Express Interests - " . $variable1;
     $msg = "You have received an express interest of the product " . $variable1;
 

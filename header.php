@@ -124,5 +124,5 @@
          </div>
      </div>
 
-     <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
      <script src="js/script.js"></script>
