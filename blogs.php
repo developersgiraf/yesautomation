@@ -89,6 +89,17 @@
 					    
 					    	<div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/arc-welding-machine-rental-checklist.php" >
+
+								<figure><img src="../images/blog/arc-welding-machine-rental-checklist.webp" alt="arc-welding-machine-rental-checklist"></figure>
+
+								<h2>   Arc Welding Machine Rental Checklist: 10 Things to
+								Verify Before You Rent </h2>
+							</a>
+						</div>
+					    
+					    	<div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/how-to-choose-the-perfect-arc-welding-machine.php" >
 
 								<figure><img src="../images/blog/how-to-choose-the-perfect-arc-welding-machine.webp" alt="how-to-choose-the-perfect-arc-welding-machine"></figure>
