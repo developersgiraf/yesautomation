@@ -214,7 +214,7 @@ creates far less messy metal splatter on your work pieces. Selecting a versatile
 offers both current types gives you maximum flexibility for all future fabrication jobs today in your
 shop.
  </p>
-<h3> 4. Evaluating Machine Portability Options </h3>
+<h4> 4. Evaluating Machine Portability Options </h4>
 
 <p> If you frequently need to repair metal fences outdoors you should always look for a highly
 portable model. Modern high tech inverter machines pack massive electrical power into small
