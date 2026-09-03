@@ -75,7 +75,8 @@
 
 					<p>Our products will help you do your job smarter, automated and maximize your productivity. </p>
 
-					<p>To know how we do that, write to us on <a href="mailto:sales@yesautomation.ae" target="_blank"><span>sales@yesautomation.ae</span></a> or Call us on: <a href="tel:971502118507" target="_blank"><span>+971 50 211 8507</span></a> </p>
+					<p>To know how we do that, write to us on <a href="mailto:sales@yesautomation.ae" target="_blank"><span>sales@yesautomation.ae</span></a>
+					 or Call us on: <a href="tel:971565388502" target="_blank"><span>+971 56 538 8502 </span></a> </p>
 				</div>
 
 			</div>
