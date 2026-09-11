@@ -18,8 +18,8 @@
 }
 .pressure-washer-product-images img
 {
-  width: 100%;
-  height: 300px;
+  width: 100% !important;
+  height: auto;
   object-fit: contain;
 }
 .pressure-washer-product-images h5
