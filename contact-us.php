@@ -1,16 +1,26 @@
 <?php
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+
+$mail_flash = '';
+
 if (isset($_POST['subc'])) {
+    require __DIR__ . '/vendor/autoload.php';
+    $smtp = require __DIR__ . '/smtp-config.php';
+
     $name = isset($_POST['firstname']) ? trim($_POST['firstname']) : '';
-    $mail = isset($_POST['email']) ? trim($_POST['email']) : '';
+    $email = isset($_POST['email']) ? trim($_POST['email']) : '';
     $phone = isset($_POST['mobile']) ? trim($_POST['mobile']) : '';
     $msg = isset($_POST['msg']) ? trim($_POST['msg']) : '';
     $subject = isset($_POST['subject']) ? trim($_POST['subject']) : '';
 
-    $header = 'MIME-Version: 1.0' . "\r\n";
-    $header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-    $header .= 'From: Yesautomation ' . "\r\n";
+    $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+    $safeEmail = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+    $safePhone = htmlspecialchars($phone, ENT_QUOTES, 'UTF-8');
+    $safeSubject = htmlspecialchars($subject, ENT_QUOTES, 'UTF-8');
+    $safeMsg = nl2br(htmlspecialchars($msg, ENT_QUOTES, 'UTF-8'));
 
-    $message = '
+    $htmlBody = '
 <div style="background:#e5e5e5; padding:2% 6%">
 <div style="padding:15px; background:#e7e7e7;text-align: center;  border-bottom:solid 5px #9dc33b">
 <div><img src="https://www.yesautomation.ae/images/logo.png"  alt="Yesautomation" /></div>
@@ -19,29 +29,60 @@ if (isset($_POST['subc'])) {
 <div style="padding:15px 15px 35px 15px; background:white;text-align: center; ">
 <H1>Enquiry from Yesautomation Website</H1>
 <div style="padding-bottom:5px; height: 30px; border-top:dashed 1px #e5e5e5; padding-top:20px;">
-<div > Name:  <a style="color:#999">' . htmlspecialchars($name) . '</a></div>
+<div > Name:  <a style="color:#999">' . $safeName . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Mail:  <a style="color:#999">' . htmlspecialchars($mail) . '</a></div>
+<div > Mail:  <a style="color:#999">' . $safeEmail . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Phone:  <a style="color:#999">' . htmlspecialchars($phone) . '</a></div>
+<div > Phone:  <a style="color:#999">' . $safePhone . '</a></div>
 </div>
 <div style="padding-bottom:5px; height: 30px;">
-<div > Subject:  <a style="color:#999">' . htmlspecialchars($subject) . '</a></div>
+<div > Subject:  <a style="color:#999">' . $safeSubject . '</a></div>
 </div>
-<div style="padding-bottom:5px; height: 30px;">
-<div > Message:  <a style="color:#999">' . htmlspecialchars($msg) . '</a></div>
+<div style="padding-bottom:5px; min-height: 30px;">
+<div > Message:  <a style="color:#999">' . $safeMsg . '</a></div>
 </div>
 </div>
 </div>';
 
-    $result = mail('sales@yesautomation.ae', 'Enquiry From Yesautomation website', $message, $header);
-    if ($result) {
+    $textBody = "Enquiry from Yesautomation Website\n"
+        . "Name: {$name}\n"
+        . "Mail: {$email}\n"
+        . "Phone: {$phone}\n"
+        . "Subject: {$subject}\n"
+        . "Message: {$msg}\n";
+
+    try {
+        $mailer = new PHPMailer(true);
+        $mailer->isSMTP();
+        $mailer->Host = $smtp['host'];
+        $mailer->SMTPAuth = true;
+        $mailer->Username = $smtp['username'];
+        $mailer->Password = $smtp['password'];
+        $mailer->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mailer->Port = $smtp['port'];
+        $mailer->CharSet = 'UTF-8';
+
+        $mailer->setFrom($smtp['from_email'], $smtp['from_name']);
+        $mailer->addAddress($smtp['to_email'], $smtp['to_name']);
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $mailer->addReplyTo($email, $name !== '' ? $name : $email);
+        }
+
+        $mailer->isHTML(true);
+        $mailer->Subject = $subject !== '' ? ('Enquiry: ' . $subject) : 'Enquiry From Yesautomation website';
+        $mailer->Body = $htmlBody;
+        $mailer->AltBody = $textBody;
+
+        $mailer->send();
         echo "<script>alert('Mail Send Successfully')</script>";
         echo "<script>window.location='contact-us.php?success'</script>";
-    } else {
-        echo "<script>alert('Something Wrong.......')</script>";
+        exit;
+    } catch (Exception $e) {
+        $mail_flash = 'Mail send failed. Please try again.';
+        $errorDetail = isset($mailer) ? $mailer->ErrorInfo : $e->getMessage();
+        error_log('Contact form SMTP error: ' . $errorDetail);
     }
 }
 ?>
@@ -103,6 +144,11 @@ if (isset($_POST['subc'])) {
 					<div class="cn-form-head">
 						<h2>Quick Enquiry</h2>
 						<p>Brief us your requirements below, and let's connect</p>
+						<?php if (!empty($mail_flash)) { ?>
+							<p class="cn-mail-flash" style="color:#e53935;margin-top:10px;"><?php echo htmlspecialchars($mail_flash, ENT_QUOTES, 'UTF-8'); ?></p>
+						<?php } elseif (isset($_GET['success'])) { ?>
+							<p class="cn-mail-flash" style="color:#2e7d32;margin-top:10px;">Thank you. Your enquiry has been sent.</p>
+						<?php } ?>
 					</div>
 
 					<form id="cnEnquiryForm" class="cn-form" action="" method="post" novalidate>
@@ -123,12 +169,14 @@ if (isset($_POST['subc'])) {
 								<span class="cn-error" id="err-mobile" role="alert"></span>
 							</div>
 							<div class="cn-field" data-field="subject">
-								<input type="text" id="cn-subject" name="subject" placeholder="Subject" maxlength="150"> 
+								<input type="text" id="cn-subject" name="subject" placeholder="Subject" maxlength="150" aria-describedby="err-subject">
+								<span class="cn-error" id="err-subject" role="alert"></span>
 							</div>
 						</div>
 
 						<div class="cn-field cn-field--full" data-field="msg">
-							<textarea id="cn-msg" name="msg" placeholder="Message" rows="6" maxlength="2000"></textarea> 
+							<textarea id="cn-msg" name="msg" placeholder="Message" rows="6" maxlength="2000" aria-describedby="err-msg"></textarea>
+							<span class="cn-error" id="err-msg" role="alert"></span>
 						</div>
 
 						<div class="cn-form__actions">
@@ -141,8 +189,8 @@ if (isset($_POST['subc'])) {
 	</section>
 
 	<div class="cn-map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.3153228089104!2d55.66152581501685!3d25.56117408372815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDMzJzQwLjIiTiA1NcKwMzknNDkuNCJF!5e0!3m2!1sen!2sin!4v1587410898618!5m2!1sen!2sin" height="350" style="border:0" allowfullscreen title="YES Automation location map" loading="lazy"></iframe>
-	</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.311212703181!2d55.66114237522392!3d25.561310877478412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5fda30b10c7a9%3A0x1281e5103fcbf1dd!2sYES%20Automation%20LLC!5e0!3m2!1sen!2sin!4v1786424587655!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
 
 	<?php include 'footer.php'; ?>
 
