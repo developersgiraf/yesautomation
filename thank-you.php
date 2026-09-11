@@ -33,7 +33,7 @@
                     <h2>Thank you for your enquiry</h2>
                     <p>We have received your message and will get back to you shortly.</p>
                     <div class="thank-you-actions">
-                        <a href="contact.php" class="thank-you-btn">Back to Contact</a>
+                        <a href="contact-us.php" class="thank-you-btn">Back to Contact</a>
                         <a href="index.php" class="thank-you-btn thank-you-btn--secondary">Go to Home</a>
                     </div>
                 </div>

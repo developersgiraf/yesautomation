@@ -76,8 +76,7 @@ if (isset($_POST['subc'])) {
         $mailer->AltBody = $textBody;
 
         $mailer->send();
-        echo "<script>alert('Mail Send Successfully')</script>";
-        echo "<script>window.location='contact-us.php?success'</script>";
+        header('Location: thank-you.php');
         exit;
     } catch (Exception $e) {
         $mail_flash = 'Mail send failed. Please try again.';
@@ -146,8 +145,6 @@ if (isset($_POST['subc'])) {
 						<p>Brief us your requirements below, and let's connect</p>
 						<?php if (!empty($mail_flash)) { ?>
 							<p class="cn-mail-flash" style="color:#e53935;margin-top:10px;"><?php echo htmlspecialchars($mail_flash, ENT_QUOTES, 'UTF-8'); ?></p>
-						<?php } elseif (isset($_GET['success'])) { ?>
-							<p class="cn-mail-flash" style="color:#2e7d32;margin-top:10px;">Thank you. Your enquiry has been sent.</p>
 						<?php } ?>
 					</div>
 
@@ -242,15 +239,7 @@ if (isset($_POST['subc'])) {
 					return '';
 				}
 			},
-			msg: {
-				el: document.getElementById('cn-msg'),
-				err: document.getElementById('err-msg'),
-				validate: function (v) {
-					if (!v.trim()) return 'Please enter your message.';
-					if (v.trim().length < 10) return 'Message must be at least 10 characters.';
-					return '';
-				}
-			}
+		 
 		};
 
 		function setError(key, message) {
